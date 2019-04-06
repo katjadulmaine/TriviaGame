@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <div class="card display1">
+        <div class="card-body">     
+                <h1>Unique Facts Trivia Game</h1>
+                <h4>Test your knowledge!</h4>
+                <h4>You have 60 seconds to answer all the questions.</h4>
+                <button type="button" class="btn btn-primary btn-lg start">START</button>
+        </div>
+        <div class="card display2">
+            <div class="card-body">
+            </div>
+            <div id="seconds">
+                <h3>Timer:<span id="timer"></span></h3>
+            </div>
+            <div id="buttons">
+                <p id="Q1">What year did the last widow of a Civil War veteran died in?</p>
+                <form>
+                    <input type="radio" name="Q1" value="wrong">1898
+                    <br>
+                    <input type="radio" name="Q1" value="wrong">1956
+                    <br>
+                    <input type="radio" name="Q1" value="wrong">1976
+                    <br>
+                    <input type="radio" name="Q1" value="correct">2008
+                </form>
+                <br>
+                <p id="Q2">What human body part is similar to an elephant's trunk?</p>
+                <form>
+                    <input type="radio" name="Q2" value="wrong">Nose
+                    <br>
+                    <input type="radio" name="Q2" value="wrong">Ears
+                    <br>
+                    <input type="radio" name="Q2" value="correct">Tongue
+                    <br>
+                    <input type="radio" name="Q2" value="wrong">Arms
+                </form>
+                <br>
+                <p id="Q3">The idea of mp3 player came about becaue:</p>
+                <form>
+                    <input type="radio" name="Q3" value="wrong">Swedish inventor, Udo Bode was trying to improve the
+                    quality of earring aids while listening to music.
+                    <br>
+                    <input type="radio" name="Q3" value="wrong">Sony researchers wanting to make a portable music
+                    device.
+                    <br>
+                    <input type="radio" name="Q3" value="wrong">Apple wanted a product that would need replacing more
+                    often than a computer.
+                    <br>
+                    <input type="radio" name="Q3" value="correct">Dieter Seitzer, a German professor was trying to find
+                    ways to transmit high-quality speech over phone lines.
+                </form>
+                <br>
+                <p id="Q4">What 2 planets rain diamonds?</p>
+                <form>
+                    <input type="radio" name="Q4" value="wrong">Saturn & Neptune
+                    <br>
+                    <input type="radio" name="Q4" value="correct">Jupiter & Saturn
+                    <br>
+                    <input type="radio" name="Q4" value="wrong">Jupiter & Uranus
+                    <br>
+                    <input type="radio" name="Q4" value="wrong">Neptune & Uranus
+                </form>
+                <br>
+                <p id="Q5">What percentage of DNA do humans and bananas have in common?</p>
+                <form>
+                    <input type="radio" name="Q5" value="correct">About 50%
+                    <br>
+                    <input type="radio" name="Q5" value="wrong">About 8%
+                    <br>
+                    <input type="radio" name="Q5" value="wrong">About 40%
+                    <br>
+                    <input type="radio" name="Q5" value="wrong">About 26%
+                </form>
+                <button type="button" class="btn btn-primary btn-lg btn-block submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="card display3">
+        <div class="card-body">
+            <div class="results">
+                <h2> Results: <span id="results"></span> </h2>
+            </div>
+            <button type="button" class="btn btn-primary btn-lg btn-block restart">Restart</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
