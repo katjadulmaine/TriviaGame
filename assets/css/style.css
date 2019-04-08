@@ -1,3 +1,5 @@
+
+
 .selector-for-some-widget {
     box-sizing: content-box;
   }
@@ -11,12 +13,12 @@ body{
     color: rgb(31, 29, 29);
     width: 100%;
     align-content: center;
-    background-image: url("../images/black-bg.jpg");
+    text-align: center;
+    background-image: url("../images/Blue-bg.jpg");
 }
 .display1 {
-    display: initial;
-}
 
+}
 .display2 {
     display: none;
 }
