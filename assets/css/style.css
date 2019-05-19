@@ -16,13 +16,6 @@ body{
     text-align: center;
     opacity: 0.9;
     background-image: url("../images/Blue-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-.display1 {
-
-}
-.display2 {
-    display: none;
-}
-.display3 {
-    display: none;
-} 
