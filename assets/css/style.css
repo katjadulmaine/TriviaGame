@@ -19,3 +19,9 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.display2 {
+    display: none;
+}
+.display3 {
+    display: none;
+}
