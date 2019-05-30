@@ -1,9 +1,7 @@
 var score = 0;
 $(document).ready(function () {
     var timer = setInterval(countdown, 1000);
-    var seconds = 60;
-    var audioElement;  
-    var questAnswer = { name: ".value" };
+    var seconds = 60; 
     $(".start").on("click", function () {
         $(".display1").hide();
         $(".display2").show();
@@ -13,7 +11,7 @@ $(document).ready(function () {
         clearInterval(timer);
         $(".display2").hide();
         $(".display3").show();
-        handleClick();
+        countdown();
     });
     //checked() inside submit button & when time runs out
     function countdown() {
@@ -22,18 +20,12 @@ $(document).ready(function () {
         if (seconds === 0) {
             $("#timer").append("<h2>You have run out of time!</h2>");
             clearInterval(timer);
-            audioElement = $("audio");
-            audioElement.setAttribute("src", "assets/audio/championCrop.mp3");
-            audioElement.play();
             $(".display2").hide();
             $(".display3").show();
             handleClick();
         };
     };
-
 });
-
-
 function handleClick() {
     console.log("handling click")
         for (let index = 1; index < 6; index++) {
@@ -47,4 +39,4 @@ function handleClick() {
 };
 $(".restart").on("click",function(){
     location.reload();
-})
+});

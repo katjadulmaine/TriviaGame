@@ -19,9 +19,16 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.display1 {
+
+}
 .display2 {
     display: none;
 }
 .display3 {
     display: none;
+}
+#title {
+    margin-top: 11em;
+    font-family: 
 }
