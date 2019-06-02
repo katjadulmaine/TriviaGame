@@ -28,7 +28,7 @@ body{
 .display3 {
     display: none;
 }
-#title {
+#title, .results {
     margin-top: 11em;
     font-family: 
 }

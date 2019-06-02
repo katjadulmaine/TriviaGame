@@ -8,9 +8,11 @@ $(document).ready(function () {
     });
 
     $(".submit").on("click", function () {
+        
         clearInterval(timer);
         $(".display2").hide();
         $(".display3").show();
+        handleClick();
         countdown();
     });
     //checked() inside submit button & when time runs out
